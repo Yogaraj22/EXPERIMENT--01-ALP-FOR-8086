@@ -78,26 +78,125 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
+mov al, 15h
+mov bl, 22h
+add al, bl
+mov [5454h], al
 
-
+ret
+```
 ## Output  
- 
+ ![358999651-d42b2503-4743-4049-90f5-1ac43b7153c4](https://github.com/user-attachments/assets/ebc6d969-f133-4830-b0db-0358bae7a528)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+ ```
+org 100h
+
+mov al, 55h
+mov bl, 21h
+sub al, bl
+mov [3254h], al
+
+ret
+```
 ## Output  
+![358999268-722fddbc-53b7-489e-a1e3-f6d5e9d43848](https://github.com/user-attachments/assets/9261f88a-91b4-4d5c-b3ca-083265a08eee)
+
 ## Multiplication alp 
+```
+org 100h
+
+mov al, 17h
+mov bl, 4h
+mul bl
+mov [1234h], al
+
+ret
+```
  ## Output  
+![359028766-51bcdcc4-b22b-4853-9320-2ce43297dc22](https://github.com/user-attachments/assets/7740141c-4139-4da9-8400-6e2225da7256)
 
 
 ## Division alp 
+```
 
+mov al, 72h
+mov bl, 4h
+div bl
+mov [5151h], al
+
+ret
+```
 ## Output  
+![358998513-a4173f93-bad8-4653-bfd6-480f71de57a9](https://github.com/user-attachments/assets/ef4fdca6-18fa-4c57-8682-f4392106771d)
 
+## Programs for Logical operations
+
+## OR Operation
+```
+org 100h
+
+mov al, 15h
+mov bl, 22h
+or al, bl
+mov [5454h], al
+
+ret
+```
+
+## Output
+![359031135-a41563f6-a008-4a04-8eff-230bfe6dacf1](https://github.com/user-attachments/assets/ecd289b2-e8de-41d3-9030-9d2d8dc0ef6b)
+
+## AND Operation
+```
+org 100h
+
+mov al, 07h
+mov bl, 05h
+and al, bl
+mov [5000h], al
+
+ret
+
+```
+## Output
+![359032501-4d8efd41-ce19-4094-a5db-62aca9d6ad3d](https://github.com/user-attachments/assets/1dbf43b0-6f0e-4693-8663-20deba4f2072)
+
+## XOR Operation
+```
+org 100h
+
+mov ax, 0A32h
+mov bx, 05B7h
+xor ax, bx
+mov [5050h], ax
+
+ret
+
+```
+## Output
+![359033546-a3b46d73-a612-4d8e-815a-0698f88be6b9](https://github.com/user-attachments/assets/f3d0948c-1093-497a-9dbb-7eb2aea0804a)
+
+## NOT operation
+```
+org 100h
+
+mov ax, 0F5Bh
+not ax
+mov [6666h], ax
+
+ret
+```
+
+## Output
+![359034236-4dde3cd8-07de-418e-9cbc-a4034ce45578](https://github.com/user-attachments/assets/569588f2-f0a6-4bd9-97bf-57e9a085b302)
 
 ## Result :
  
-
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
