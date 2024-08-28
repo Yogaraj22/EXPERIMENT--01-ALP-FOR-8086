@@ -1,8 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
+```
+Name :S.YOGARAJ
+Roll no : 212223040248
+Date of experiment : 26/08/2024
+```
 
 
 
